@@ -39,8 +39,8 @@ getHeaderBannerImg() {
         this.mediaTags.ogUrl = (this.platformLocation as any).location.origin + this.router.url;
         this.mediaTags.ogTitle = "SocialMediaTitle";
         this.mediaTags.twitterTitle = "SocialMediaTitle";
-        this.mediaTags.ogImageUrl = https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg;
-        this.mediaTags.twitterImage = https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg;
+        this.mediaTags.ogImageUrl = "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg";
+        this.mediaTags.twitterImage = "https://upload.wikimedia.org/wikipedia/commons/c/c9/Moon.jpg";
         this.mediaTags.ogDescription = "Section Description";
         this.mediaTags.twitterDescription = "Section Description";
         this.commonService.setMediaTags(this.mediaTags);
